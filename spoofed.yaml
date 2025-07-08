@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: "🚨 Spoofed Fake API Interface"
+  description: "This fake API appears in Swagger UI via remote config injection."
+paths:
+  /api/delete-account:
+    post:
+      summary: "Delete your account (⚠️ spoofed)"
+      responses:
+        '200':
+          description: "Your account has been deleted"
